@@ -1,0 +1,2 @@
+37. Browsers do not support JSX! React transforms the JSX code in a way that browsers can understand
+The function name must start with an uppercase annd needs to return a renderable value
