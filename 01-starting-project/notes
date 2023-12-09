@@ -1,2 +1,5 @@
 37. Browsers do not support JSX! React transforms the JSX code in a way that browsers can understand
 The function name must start with an uppercase annd needs to return a renderable value
+
+48. React passes a special prop named 'children' to every custom component. 
+Content for 'children': The content bw component opening and closing tags is used as value for the special 'children' prop.
