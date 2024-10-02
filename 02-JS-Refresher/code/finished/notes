@@ -1,0 +1,7 @@
+2.14
+defer attribute the script imported will only be executed after the rest of the HTML document has been read and parsed or alternatively could remove the <script> </script> tags at the end of the <body> section
+type="module" makes sure JS file is treated as JS module
+
+2.15
+React requires a build process because modern JavaScript and React features can't be directly run by browsers.
+Node.js makes sure that the React code gets transfromed by browsers

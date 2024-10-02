@@ -1,0 +1,18 @@
+Components must follow two rules -> Name starts with uppercase, returns "renderable" content
+
+index.jsx file acts as the main entry point of React app
+
+{} when adding curly braces in the JSX code, you tell react that you want to output a dynamic value.
+
+props -> pass data into components
+
+props.children: React'te her bileşen varsayılan olarak bir children prop'una sahiptir. Bu prop, bileşenin açılış ve kapanış etiketleri arasında yer alan her şeyi temsil eder.
+örnek :  <TabButton>
+            Click Me!
+        <  /TabButton>
+
+By default, react components execute only one
+
+Only call Hooks indide of COMPONENT FUNCTIONS and only call hooks ON TOP LEVEL
+
+
