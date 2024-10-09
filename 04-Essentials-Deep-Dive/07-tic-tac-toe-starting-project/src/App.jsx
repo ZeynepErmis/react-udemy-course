@@ -3,7 +3,7 @@ import Player from "./components/Player";
 import GameBoard from "./components/GameBoard";
 import Log from "./components/Log";
 import { WINNING_COMBINATIONS } from "./winning-combinations";
-import GameOver from "./GameOver";
+import GameOver from "./components/GameOver";
 
 const PLAYERS = {
   X: "Player 1",
