@@ -15,7 +15,10 @@ export default function UserInput({ onChange, userInput }) {
         </p>
         <p>
           <label>Annual Invesments</label>
-          {/* girdiğiniz değerler sayısal olmasına rağmen, JavaScript'te event.target.value ile alınan değer her zaman bir string olarak gelir. Yani, input alanına girilen sayısal veriler bile aslında birer string olarak temsil edilir. Bu durum, HTML DOM yapısının bir sonucudur.*/}
+          {/* girdiğiniz değerler sayısal olmasına rağmen, 
+          JavaScript'te event.target.value ile alınan değer her zaman bir string olarak gelir.
+           Yani, input alanına girilen sayısal veriler bile aslında birer string olarak temsil edilir. 
+           Bu durum, HTML DOM yapısının bir sonucudur.*/}
           <input
             type="number"
             required
