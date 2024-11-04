@@ -1,6 +1,6 @@
 import React from "react";
 import { EXAMPLES } from "../data.js";
-import TabButton from "../components/TabButton.jsx";
+import TabButton from "./TabButton.jsx";
 import Section from "./Section.jsx";
 //react hooks --> when starts with the use keyword.
 import { useState } from "react";
